@@ -15,7 +15,7 @@ export default function Home() {
             y:40,
             color: "white"
          }}>
-          Hola!, Soy Jose.<br/>Soy desarrollador Web y contructor de interfaces de
+          Hola!, Soy Jose.<br/>Soy desarrollador  Web y contructor de interfaces de
           usuario
         </motion.h1>
         <motion.p className={style.p_presentation}
