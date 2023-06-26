@@ -1,0 +1,66 @@
+.containerTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 93vh;
+  /* background-color: rgb(77, 77, 152); */
+  margin: 0px;
+  padding: 0px;
+}
+.h1 {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 5px;
+  font-size: 480%;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+.p {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 150%;
+  color: white;
+}
+
+.containerLenguajes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid rgb(131, 129, 129);
+  background-color: rgba(32, 35, 32, 0.638);
+  width: 100%;
+  height: 134vh;
+  margin: 0px;
+  padding: 0px;
+}
+.tecno {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* background-color: purple; */
+  width: 90%;
+  height: 45vh;
+  margin: 5px;
+}
+.h2 {
+  color: white;
+  margin: 5px;
+  text-align: center;
+ border-bottom: 2px solid white;
+}
+.leng {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* background-color: brown; */
+  max-width: 95%;
+  height: 32vh;
+  padding: 8px;
+}

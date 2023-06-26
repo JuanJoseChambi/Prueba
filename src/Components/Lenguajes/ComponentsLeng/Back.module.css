@@ -1,0 +1,37 @@
+
+.logs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(164, 164, 164);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: transform .5s;
+}
+.containers:hover{
+    background-color: rgb(205, 202, 202);
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+.nodejs{
+    width: 135px;
+    /* background-color: blue; */
+    margin-bottom: 4px;
+}
+.sql{
+    width: 130px;
+}
+.express{
+    width: 150px;
+}
+.nodemon{
+    width: 120px;
+    margin-bottom: 12px;
+}

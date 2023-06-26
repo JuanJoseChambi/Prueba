@@ -1,0 +1,44 @@
+
+.logs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(188, 184, 184);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: transform .5s;
+}
+.containers:hover{
+    background-color: rgb(205, 202, 202);
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+.css{
+    width: 120px;
+    margin-bottom: 4px;
+}
+.html{
+    width: 130px;
+}
+.js{
+    width: 150px;
+}
+.react{
+    width: 120px;
+    margin-bottom: 12px;
+}
+.redux{
+    width: 120px;
+    margin-bottom: 5px;
+}
+.framer{
+    width: 110px;
+    margin-bottom: 10px;
+}
